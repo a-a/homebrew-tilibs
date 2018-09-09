@@ -21,14 +21,12 @@ class Libticables < Formula
   depends_on "intltool"
   
   def install
-    cd "libticables2-1.3.4/" do
-      system "autoreconf", "-i", "-v", "-f"
-      system "./configure", "--disable-dependency-tracking",
-                            "--disable-silent-rules",
-                            "--prefix=#{prefix}",
-                            "--enable-libusb10"
-      system "make", "install"
-    end
+    system "autoreconf", "-i", "-v", "-f"
+    system "./configure", "--disable-dependency-tracking",
+                          "--disable-silent-rules",
+                          "--prefix=#{prefix}",
+                          "--enable-libusb10"
+    system "make", "install"
   end
 
   test do
