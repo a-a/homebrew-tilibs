@@ -1,9 +1,9 @@
 class Tilp < Formula
   desc "TiLP is a linking program; it allows you to connect your Texas Instruments (TI) graphing calculator to a computer/workstation and transfers data between them. TiLP is free software and licensed under the GNU General Public License (GPL)."
   homepage "http://lpg.ticalc.org/prj_tilp/index.html"
-  url "http://www.ticalc.org/pub/unix/tilp.tar.gz"
+  url "http://datashed.science/misc/tilp2/1.17/tilp2-1.17.tar.bz2"
   version "0.1"
-  sha256 "9a6a872af0d30cb2b0ce720edc8333cb79067cc22133727420229f069921fb97"
+  sha256 "0bc744463450843c0f1e9deebf45af84a282304aff37865077ca7146d54ff6e7"
   
   depends_on "autoconf"
   depends_on "automake"

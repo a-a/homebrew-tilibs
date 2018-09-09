@@ -1,9 +1,9 @@
 class Libticables < Formula
   desc "Cables library for connecting to Texas Instruments calculators"
   homepage "https://github.com/debrouxl/tilibs/tree/master/libticables/trunk"
-  url "https://github.com/debrouxl/tilibs/archive/master.zip"
+  url "http://datashed.science/misc/tilp2/1.17/libticables2-1.3.4.tar.bz2"
   version "0.1"
-  sha256 "3c484085a79b73cd8cc6370ea54fc20afb93839b3f65ff2c6a9f08a2f604ac28"
+  sha256 "45cae91ad9ee1cc2ebc0f5865923ff77f1e0adf0793d3010eeb802efc140e5b0"
   
   depends_on "autoconf"
   depends_on "automake"

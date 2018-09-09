@@ -1,9 +1,9 @@
 class Libticalcs < Formula
   desc "Calculator lib for other Texas Instruments calculator libs"
   homepage "https://github.com/debrouxl/tilibs/tree/master/libticalcs/trunk"
-  url "https://github.com/debrouxl/tilibs/archive/master.zip"
+  url "http://datashed.science/misc/tilp2/1.17/libticalcs2-1.1.8.tar.bz2"
   version "0.1"
-  sha256 "3c484085a79b73cd8cc6370ea54fc20afb93839b3f65ff2c6a9f08a2f604ac28"
+  sha256 "a8286f8a2552bcad96beab99ce254e67b3dc1a03eb9d82f8de4bdf7b8efc3496"
   
   depends_on "autoconf"
   depends_on "automake"

@@ -1,9 +1,9 @@
 class Libticonv < Formula
   desc "Conversion lib for other Texas Instruments calculator libs"
   homepage "https://github.com/debrouxl/tilibs/tree/master/libticonv/trunk"
-  url "https://github.com/debrouxl/tilibs/archive/master.zip"
+  url "http://datashed.science/misc/tilp2/1.17/libticonv-1.1.4.tar.bz2"
   version "0.1"
-  sha256 "60fe201484bb55913cff8eb3987d0e41cd64666cf87bbbe021d4311f169300a7"
+  sha256 "1faecc71311bd95c94792cc72dd0844e7881a65156b006f045bb417eddd45183"
   
   depends_on "autoconf"
   depends_on "automake"
