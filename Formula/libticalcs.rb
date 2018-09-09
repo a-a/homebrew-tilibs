@@ -15,7 +15,7 @@ class Libticalcs < Formula
   depends_on "libtifiles"
   
   def install
-    cd "libticalcs/trunk/" do
+    cd "libticalcs/" do
       system "autoreconf", "-i", "-v", "-f"
       system "./configure", "--disable-dependency-tracking",
                             "--disable-silent-rules",
