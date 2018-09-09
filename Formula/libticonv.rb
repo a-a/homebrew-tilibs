@@ -13,7 +13,7 @@ class Libticonv < Formula
   depends_on "gettext"
   
   def install
-    cd "libticonv/" do
+    cd "libticonv-1.1.4/" do
       system "autoreconf", "-i", "-v", "-f"
       system "./configure", "--disable-dependency-tracking",
                             "--disable-silent-rules",

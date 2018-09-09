@@ -14,7 +14,7 @@ class Libtifiles < Formula
   depends_on "libticonv"
   
   def install
-    cd "libtifiles/" do
+    cd "libtifiles2-1.1.6/" do
       system "autoreconf", "-i", "-v", "-f"
       system "./configure", "--disable-dependency-tracking",
                             "--disable-silent-rules",
